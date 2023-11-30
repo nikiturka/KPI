@@ -1,0 +1,14 @@
+C:\Users\nikita_turda\source\repos\lab2\lab2\bin\Debug\net6.0\lab2.exe
+C:\Users\nikita_turda\source\repos\lab2\lab2\bin\Debug\net6.0\lab2.deps.json
+C:\Users\nikita_turda\source\repos\lab2\lab2\bin\Debug\net6.0\lab2.runtimeconfig.json
+C:\Users\nikita_turda\source\repos\lab2\lab2\bin\Debug\net6.0\lab2.dll
+C:\Users\nikita_turda\source\repos\lab2\lab2\bin\Debug\net6.0\lab2.pdb
+C:\Users\nikita_turda\source\repos\lab2\lab2\obj\Debug\net6.0\lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikita_turda\source\repos\lab2\lab2\obj\Debug\net6.0\lab2.AssemblyInfoInputs.cache
+C:\Users\nikita_turda\source\repos\lab2\lab2\obj\Debug\net6.0\lab2.AssemblyInfo.cs
+C:\Users\nikita_turda\source\repos\lab2\lab2\obj\Debug\net6.0\lab2.csproj.CoreCompileInputs.cache
+C:\Users\nikita_turda\source\repos\lab2\lab2\obj\Debug\net6.0\lab2.dll
+C:\Users\nikita_turda\source\repos\lab2\lab2\obj\Debug\net6.0\refint\lab2.dll
+C:\Users\nikita_turda\source\repos\lab2\lab2\obj\Debug\net6.0\lab2.pdb
+C:\Users\nikita_turda\source\repos\lab2\lab2\obj\Debug\net6.0\lab2.genruntimeconfig.cache
+C:\Users\nikita_turda\source\repos\lab2\lab2\obj\Debug\net6.0\ref\lab2.dll
