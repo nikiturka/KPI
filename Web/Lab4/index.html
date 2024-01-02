@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Лабороторна робота 4</title>
+</head>
+<body>
+  <header style="text-align: center;">
+    <h1>Група: ТР-23</h1>
+    <h2>ПІБ: Турда Микита Євгенійович</h2>
+    <h2>Варіант студента: 23</h2>
+  </header>
+  <table style="width:100%; margin-top: 50px;" border="1">
+    <tr>
+      <th>Опис завдання</th>
+      <th>Виконання завдання</th>
+    </tr>
+    <tr>
+      <td>1. Створити об’єкт «Факультет» з властивостями «Назва», «телефон».</td>
+      <td>
+        <div>
+          <p>Введіть назву:</p>
+          <input type="text" id="myInputFaculty" placeholder="назва">
+        </div>
+        <div>
+        <p>Введіть телефон:</p>
+        <input type="text" id="myInputGroup" placeholder="телефон">
+        </div>
+        <button id="myButton" onclick="inputData()">Виконати</button>
+        <p id="inputDatap">Res:</p>
+      </td>
+    </tr>
+    <tr>
+      <td>2. Створити об’єкт «Група», що містить властивості «Спеціальність», «Ширф», «Кількість студентів» і методи: додати, змінити, видалити дані.</td>
+      <td>
+        <div>
+          <p>Введіть Спеціальність:</p>
+          <input type="text" id="myInputSpec" placeholder="спеціальність">
+        </div>
+        <div>
+          <p>Введіть Ширф:</p>
+          <input type="text" id="myInputShirf" placeholder="ширф">
+        </div>
+        <div>
+          <p>Введіть кількість студентів:</p>
+          <input type="text" id="myInputKolStud" placeholder="кількість студентів">
+        </div>
+        <button id="myButton1" onclick="inputDate()">Виконати</button>
+        <p id="inputDatep">Res:</p>
+        <div>
+          <p>Додати інформацію:</p>
+          <div>
+            <p>Введіть спеціальність:</p>
+            <input type="text" id="myChangeInputSpec" placeholder="спеціальність">
+          </div>
+          <div>
+            <p>Введіть ширф:</p>
+            <input type="text" id="myChangeInputShirf" placeholder="ширф">
+          </div>
+          <div>
+            <p>Введіть кількість студентів:</p>
+            <input type="text" id="myChangeInputKolStud" placeholder="кількість студентів">
+          </div>
+          <button id="addButton" onclick="addData()">Додати</button>
+          <p id="addDatap">Res:</p>
+        </div>
+        <div>
+          <p>Змітнити інформацію:</p>
+          <div>
+            <p>Введіть Спеціальність:</p>
+            <input type="text" id="myUpdateInputSpec" placeholder="спеціальність">
+          </div>
+          <div>
+            <p>Введіть Ширф:</p>
+            <input type="text" id="myUpdateInputShirf" placeholder="ширф">
+          </div>
+          <div>
+            <p>Введіть кількість студентів:</p>
+            <input type="text" id="myUpdateInputKolStud" placeholder="кількість студентів">
+          </div>
+          <button id="updateButton" onclick="updateData()">Змінити</button>
+          <p id="updateDatap">Res:</p>
+        </div>
+        <div>
+          <p>Видалення інформації:</p>
+        </div>
+        <div>
+          <button id="deleteButton" onclick="deleteData()">Видалити</button>
+          <p id="deleteDatap">Res:</p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>3. Реалізувати копіювання властивостей і методів об’єктів «Факультет» і «Група».</td>
+      <td>
+        <button id="copyButton" onclick="copyData()">Скопіювати інформацію</button>
+        <p id="copyDatap">Res:</p>
+      </td>
+    </tr>
+    <tr>
+      <td>4. Додати в прототип об’єкту «Група» метод «Показати дані».</td>
+      <td><button id="showDataButton" onclick="showData()">Показати інформацію</button>
+        <p id="showDatap">Res:</p></td>
+    </tr>
+    <tr>
+      <td>5. Створити об’єкт «Сесія», що наслідує властивості і методи об’єкту «Група» і має додаткові властивість «Відраховано» і метод «Відсоток не відрахованих». Перевизначити в об’єкті «Успішність» метод «Показати дані».</td>
+      <td>
+        <div>
+          <p>Введіть кількість відрахованих студентів:</p>
+          <input type="text" id="myVidrahovano" placeholder="відраховано">
+        </div>
+        <button id="myButton5" onclick="neVidrahovani()">Вирахувати</button>
+        <p id="neVidrahovanip">Res:</p>
+      </td>
+    </tr>
+    <tr>
+      <td>6. Реалізувати класи «ГрупаКлас» і «СесіяКлас» з такими же методами і властивостями як і попередні об’єкти. «СесіяКлас» наслідує методи та властивості від «ГрупаКлас». При реалізації використовувати геттери і сеттери, наприклад, для перевірки даних чи виведення в різних виглядах інформацію.</td>
+      <td><div>
+        <p>Введіть кількість хлопців:</p>
+        <input type="text" id="myInputStydent" placeholder="хлопців">
+      </div>
+        <div>
+          <p>Введіть кількість дівчат:</p>
+          <input type="text" id="myInpuntStudentka" placeholder="дівчат">
+        </div>
+        <div>
+          <p>Введіть факультет:</p>
+          <input type="text" id="myInputFacultet" placeholder="факультет">
+        </div>
+        <button id="myButton11" onclick="allStuds()">Виконати</button>
+        <p id="allStudsp">Res:</p></td>
+    </tr>
+  </table>
+<script src="script.js"></script>
+</body>
+</html>
